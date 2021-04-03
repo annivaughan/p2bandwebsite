@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title> fans page</title>
+   <link rel="stylesheet" href="fanstyle.css">
+   </head>
+   <body>
+
+ <h1> Please join our FanClub! </h1>
+
+    <form action="contactform.php" method="post">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="text" name="club name" placeholder="Your club name">
+    <input type="text" name="email" value="Your email address">
+    <input type="password" name="password" placeholder="password">
+  </form>
+
+
+      <p> Male:<input type="radio" name="gender" value="male"> </p>
+
+      <p> Female:<input type="radio" name="gender" value="female"> </p>
+
+      <p> Not disclosed:<input type="radio" name="gender" value="not disclosed" checked> </p>
+
+
+  <p>
+    <textarea name="message" placeholder="Write a message"> Your favorite song of Arashi? </textarea>
+  </p>
+
+    <p>  <select name="Frequency of joining events">
+        <option value="every 3 months">Attend club events often</option>
+        <option value="every 6 months">Attend club events sometimes</option>
+        <option value="All the time">Not disclosed</option>
+        </select>
+    </p>
+
+
+  <button type="button"
+         onclick="alert('Thank you for joining!')">submit!</button>
+
+
+</body>
+</html>
